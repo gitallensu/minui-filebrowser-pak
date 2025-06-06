@@ -3,10 +3,10 @@ PAK_TYPE := $(shell jq -r .type pak.json)
 PAK_FOLDER := $(shell echo $(PAK_TYPE) | cut -c1)$(shell echo $(PAK_TYPE) | tr '[:upper:]' '[:lower:]' | cut -c2-)s
 
 PUSH_SDCARD_PATH ?= /mnt/SDCARD
-PUSH_PLATFORM ?= tg5040
+PUSH_PLATFORM ?= tg5040 my355
 
 ARCHITECTURES := arm arm64
-PLATFORMS := rg35xxplus tg5040
+PLATFORMS := rg35xxplus tg5040 my355
 
 FILEBROWSER_VERSION ?= v2.31.2
 JQ_VERSION ?= 1.7.1

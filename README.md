@@ -1,5 +1,7 @@
 # minui-http-filebrowser.pak
 
+Forked from Jose Gonzales's work. Only difference is building for the Miyoo Flip so I can use it on my flip.
+
 A MinUI app wrapping [`filebrowser`](https://github.com/filebrowser/filebrowser/), an http file server.
 
 ## Requirements

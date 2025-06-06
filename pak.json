@@ -7,8 +7,9 @@
   "release_filename": "HTTP.Filebrowser.pak.zip",
   "platforms": [
     "rg35xxplus",
-    "tg5040"
+    "tg5040",
+    "my355"
   ],
   "launch": "launch.sh",
-  "version": "0.7.1"
+  "version": "0.0.0"
 }
